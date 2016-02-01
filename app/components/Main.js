@@ -1,7 +1,10 @@
+
 var React = require('react');
 
 var Main = React.createClass({
+
   render: function () {
+
     return (
       <div className="main-container">
         <nav className="navbar navbar-default" role="navigation">
@@ -14,6 +17,7 @@ var Main = React.createClass({
         </div>
       </div>
     )
+    
   }
 });
 
